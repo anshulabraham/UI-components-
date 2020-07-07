@@ -36,6 +36,7 @@ form{
     align-items: center;
     justify-content: center;
     padding: 40px;
+    flex: 1.5px;
 }
 .form-control  {
     margin:  10px 0;
@@ -55,7 +56,20 @@ input:not([type='checkbox']){
     font-size: 14px;
     padding: 10px;
     width: 100%;
-    
+}
+.checkbox-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 15px;
+    widows: 100%;
+}
+.checkbox-container label {
+    color:#7a7e8c;
+    font-weight: normal;
+}
+.checkbox-container a{
+    margin-left: auto;
 
 }
 .btn {
@@ -82,4 +96,8 @@ input:not([type='checkbox']){
 .btn img{
     margin-right: 5px;
     width: 20px;
+}
+
+.features {
+    
 }
