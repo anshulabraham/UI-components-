@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
-    box-sizing: : border-box;
+    box-sizing: border-box;
 }
 
 body  {
@@ -40,7 +40,7 @@ form{
 }
 .form-control  {
     margin:  10px 0;
-    width 100%;    
+    width : 100%;    
 }
 
 label {
@@ -99,5 +99,33 @@ input:not([type='checkbox']){
 }
 
 .features {
-    
+    flex: 1.5;
+    padding: 40px;
+}
+
+.feature{
+    padding-left: 30px;
+    position: relative;
+    margin:  40px 0;
+}
+
+.feature i {
+    color: #2762eb;
+    position: absolute;
+    top:5px;
+    left: 0;
+}
+
+.feature h3 {
+    margin: 0;
+}
+
+.feature p{
+    font-size: 14px;
+    line-height: 1.8;
+    margin : 5pz 0;
+}
+
+@media(max-wdith: 768px){
+
 }
