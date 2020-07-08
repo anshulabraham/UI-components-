@@ -6,9 +6,10 @@
 
 body  {
     background-color: #f7f8fc;
-    columns: #141c2c;
+    color: #141c2c;
     font-family: 'Open Sans', sans-serif;
     display: flex;
+    align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
@@ -23,7 +24,7 @@ a {
     background-color: #fff;
     border-radius: 3px;
     border: 20px solid #dce7ff;
-    widows: 1000px;
+    width: 1000px;
     max-width: 100%;
     display: flex;
     box-shadow: 0 4px 5px rgba(0,0,0,0.1);
@@ -123,9 +124,14 @@ input:not([type='checkbox']){
 .feature p{
     font-size: 14px;
     line-height: 1.8;
-    margin : 5pz 0;
+    margin : 5px 0;
 }
 
-@media(max-wdith: 768px){
-
+@media(max-width: 768px){
+    .container {
+        flex-direction:column;
+    }
+    form{
+        border-right: 0;
+    }
 }
